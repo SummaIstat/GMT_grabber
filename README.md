@@ -17,15 +17,22 @@ If you have Python 3.X already installed on your PC you just have to apply the f
 4) open a terminal and go into the myDir directory
 
 5) if in your Python configuration (or you Python virtual environment) the dependencies required by the project are not installed, type and execute the following commands:
-		pip install -U wxPython
-		pip install pyproj
-		pip install opencv-python
-		pip install -U matplotlib
-		pip install pypng
-		pip install -U selenium
-		pip install webdriver_manager
 
-6) type and execute the following command:
+	pip install -U wxPython
+	
+ 	pip install pyproj
+	
+  	pip install opencv-python
+	
+ 	pip install -U matplotlib
+	
+ 	pip install pypng
+	
+ 	pip install -U selenium
+	
+ 	pip install webdriver_manager
+
+7) type and execute the following command:
         python GMT_grabber.py config.cfg
 
 ## Licensing
